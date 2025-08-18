@@ -2,10 +2,19 @@
 @import "tailwindcss";
 @import "tailwindcss-intersect";
 @plugin "tailwindcss-motion";
+@plugin "@iconify/tailwind4";
 @plugin "flyonui";
 @import "flyonui/variants.css"; /* Require only if you want to use FlyonUI JS component */
 
 @source "flyonui/dist/index.js"; /* Require only if you want to use FlyonUI JS component */
+
+@plugin "flyonui/theme" {
+    name: "vscode";
+    default: true;
+    --color-primary: green;
+    --color-secondary: yellow;
+    
+  }
 
 
 
@@ -59,6 +68,18 @@ body {
         color-scheme: dark;
     }
 }
-*:not(.shaped){
+*:not(.shaped,.swiper-custom-bullet){
     @apply rounded-none;
+}
+/* Custom styles */
+@layer components {
+    .swiper-custom-bullet{
+        @apply h-5 w-5 rounded-full opacity-25 text-secondary  bg-secondary;
+       
+      }
+      
+    .swiper-custom-bullet.swiper-custom-bullet-active {
+       @apply bg-primary opacity-100;
+    }
+
 }

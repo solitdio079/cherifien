@@ -1,12 +1,15 @@
 import * as React from "react" 
-
+import logo from "../images/logo.png"
+import NavLink from "./Navlink"
 export default function Navbar(){
     return (<>
     <nav className="navbar rounded-box shadow-base-300/20 shadow-sm">
   <div className="w-full md:flex md:items-center md:gap-2">
     <div className="flex items-center justify-between">
       <div className="navbar-start items-center justify-between max-md:w-full">
-        <a className="link text-base-content link-neutral text-xl font-bold no-underline" href="#">FlyonUI</a>
+        <a className="link text-base-content link-neutral text-xl font-bold no-underline" href="#">
+          <img  src={logo} className="w-32 lg:w-80" alt="logo" />
+        </a>
         <div className="md:hidden">
           <button type="button" className="collapse-toggle btn btn-outline btn-secondary btn-sm btn-square" data-collapse="#navbar-collapse" aria-controls="navbar-collapse" aria-label="Toggle navigation" >
             <span className="icon-[tabler--menu-2] collapse-open:hidden size-4"></span>
@@ -17,21 +20,11 @@ export default function Navbar(){
     </div>
     <div id="navbar-collapse" className="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full" >
       <ul className="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li className="dropdown relative inline-flex [--auto-close:inside] [--offset:8] [--placement:bottom-end]">
-          <button id="dropdown-link" type="button" className="dropdown-toggle dropdown-open:bg-base-content/10 dropdown-open:text-base-content" aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown" >
-            Parent
-            <span className="icon-[tabler--chevron-down] dropdown-open:rotate-180 size-4"></span>
-          </button>
-          <ul className="dropdown-menu dropdown-open:opacity-100 hidden" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-link" >
-            <li><a className="dropdown-item" href="#">Link 3</a></li>
-            <li><a className="dropdown-item" href="#">Link 4</a></li>
-            <li><a className="dropdown-item" href="#">Link 5</a></li>
-            <hr className="border-base-content/25 -mx-2" />
-            <li><a className="dropdown-item" href="#">Link 6</a></li>
-          </ul>
-        </li>
+        <li><NavLink to={"/"}>Accueil</NavLink></li>
+        <li><NavLink to={"/about"}>A Propos</NavLink></li>
+        <li><NavLink to={"/services"}>Nos Services</NavLink></li>
+        <li><NavLink to={"/contact"}>Contact</NavLink></li>
+        
       </ul>
     </div>
   </div>
