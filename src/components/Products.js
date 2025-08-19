@@ -25,9 +25,9 @@ export default function Products() {
         </h2>
         <span className="from-secondary/90 to-secondary/45 absolute start-0 top-9 lg:top-14 h-1 w-full rounded-full bg-gradient-to-r"></span>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+      <div className="grid md:grid-cols-3 gap-6 ">
         {products.map((product) => (
-          <div className={`card ${product.id === 2 ? "mt-12": ""} intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier card-border hover:border-primary h-full shadow-none`}>
+          <div className={`card ${product.id === 2 ? "md:mt-12": ""} intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier card-border hover:border-primary h-full shadow-none`}>
             <figure className="bg-base-200 pt-2">
               <img
                 src={product.productImg}
@@ -48,7 +48,7 @@ export default function Products() {
         href="#"
         className="btn btn-md btn-primary btn-gradient intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier"
       >
-        Plus d'Infos
+        Voir Plus
         <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
       </a>
       </div>

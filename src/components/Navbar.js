@@ -3,7 +3,7 @@ import logo from "../images/logo.png"
 import NavLink from "./Navlink"
 export default function Navbar(){
     return (<>
-    <nav className="navbar rounded-box shadow-base-300/20 shadow-sm">
+    <nav className="navbar lg:sticky lg:top-0 z-50 rounded-box shadow-base-300/20 shadow-sm">
   <div className="w-full md:flex md:items-center md:gap-2">
     <div className="flex items-center justify-between">
       <div className="navbar-start items-center justify-between max-md:w-full">
