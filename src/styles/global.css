@@ -71,6 +71,9 @@ body {
 *:not(.shaped,.swiper-custom-bullet,.icon-container){
     @apply rounded-none;
 }
+div.section {
+    @apply  lg:px-20   py-8 sm:py-16 lg:py-12 px-10;
+}
 /* Custom styles */
 @layer components {
     .swiper-custom-bullet{

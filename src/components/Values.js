@@ -12,13 +12,13 @@ const valeurs = [
 export default function Values() {
   return (
     <>
-      <div className="grid gap-6 md:grid-cols-3 border-primary my-12  px-10 lg:px-20">
+      <div className="grid gap-6 md:grid-cols-3 border-primary section">
         {valeurs.map((item) => (<div className="flex flex-col">
         <div className={`${item.bgColor} rounded-full intersect:motion-preset-slide-right intersect:motion-delay-[100ms] intersect:motion-ease-spring-bouncier z-2 w-fit icon-container p-10 -mb-5 mx-auto`}>
         <span className={`${item.icon} size-16 rtl:rotate-180`} ></span>
         </div>
             
-          <div className={`flex ${item.bgColor} intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier text-2xl font-bold flex-col card items-center p-10 text-center justify-between card-border`}>
+          <div className={`flex ${item.bgColor} intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier text-2xl font-bold flex-col card items-center p-10 text-center justify-between card-border`}>
             
             {item.content}
           </div>
