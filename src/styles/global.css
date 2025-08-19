@@ -68,7 +68,7 @@ body {
         color-scheme: dark;
     }
 }
-*:not(.shaped,.swiper-custom-bullet){
+*:not(.shaped,.swiper-custom-bullet,.icon-container){
     @apply rounded-none;
 }
 /* Custom styles */
