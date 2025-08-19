@@ -32,7 +32,7 @@ export default function Welcome() {
           </div>
           <div className="relative">
             <span className="absolute z-2 intersect:motion-preset-slide-left intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier font-bold text-primary p-5 text-2xl  bg-white text-bold w-fit bottom-0 lg:bottom-25 left-0 lg:-left-10">
-            Aviculture <br/> Pisciculture <br/> Embouche <br/> Bovine-ovine 
+            Aviculture <br/> Pisciculture <br/> élevage <br/> fruits & légumes
             </span>
             <img
               className="rounded-lg intersect:motion-preset-slide-left intersect:motion-delay-[1000ms] intersect:motion-ease-spring-bouncier"

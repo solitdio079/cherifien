@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import heroBg1 from "../images/heroBg1.jpeg";
+import heroBg1 from "../images/heroBg3.jpeg";
 import heroBg2 from "../images/heroBg2.jpeg";
 import heroBg4 from "../images/heroBg4.jpg";
 import HeroSlider from "./HeroSlider";
@@ -44,7 +44,7 @@ export default function SwiperComponent() {
               </span>
             </h1>
             <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-              Aviculture, Pisciculture, Embouche bovine-ovine
+              Aviculture, pisciculture, élevage, fruits & légumes
             </p>
 
             <Link
@@ -64,7 +64,7 @@ export default function SwiperComponent() {
               </span>
             </h1>
             <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-              Aviculture, Pisciculture, Embouche bovine-ovine
+              Aviculture, pisciculture, élevage, fruits & légumes
             </p>
 
             <Link
@@ -84,7 +84,7 @@ export default function SwiperComponent() {
               </span>
             </h1>
             <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-              Aviculture, Pisciculture, Embouche bovine-ovine
+              Aviculture, pisciculture, élevage, fruits & légumes
             </p>
 
             <Link

@@ -25,7 +25,7 @@ export default function About() {
         <div className="grid gap-6 lg:grid-cols-2  px-10 lg:px-20 mb-12 motion-translate-y-in-100 motion-blur-in-md">
           <div className="relative">
             <span className="absolute z-2 intersect:motion-preset-slide-left intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier font-bold text-primary p-5 text-2xl  bg-white text-bold w-fit bottom-0 lg:bottom-15 right-0 lg:-right-2">
-              Aviculture <br /> Pisciculture <br /> Embouche <br /> Bovine-ovine
+              Aviculture <br /> Pisciculture <br /> élevage <br /> fruits & legumes
             </span>
             <img
               className="rounded-lg intersect:motion-preset-slide-left intersect:motion-delay-[1000ms] intersect:motion-ease-spring-bouncier"
