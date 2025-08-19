@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
             <p>
              
               <a className="link link-hover font-medium text-primary" href="#">
-              That's right, we only sell 100% organic
+              Nous ne vendons que du 100% organique
               </a>
             </p>
           </aside>
@@ -35,7 +35,8 @@ const Layout = ({ children }) => {
           </div>
           <div className="flex gap-4 h-5 items-center text-primary">
           <span className="icon-[tabler--phone] size-4"></span>
-          +223 70 77 89 67
+          +223 66 79 89 86
+
 
           </div>
         </div>
@@ -45,7 +46,7 @@ const Layout = ({ children }) => {
         {children}
         <Footer />
         <a
-          href="https://wa.me/905326861522"
+          href="https://wa.me/22366798986"
           target="_blank"
           className="btn z-10 fixed btn-xl bottom-6 right-6 btn-circle btn-gradient btn-success"
           aria-label="Circle Gradient Icon Button"

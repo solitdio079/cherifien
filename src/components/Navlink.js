@@ -5,8 +5,8 @@ export default function NavLink({ to, children, className = "", ...rest }) {
   return (
     <Link
       to={to}
-      getProps={({ isCurrent, isPartiallyCurrent }) => {
-        const active = isCurrent || isPartiallyCurrent;
+      getProps={({ isCurrent }) => {
+        const active = isCurrent;
         return {
           className:
             `${className} px-3 py-2` +

@@ -2,6 +2,7 @@ import * as React from "react";
 import product1 from "../images/oeuf1.jpeg";
 import product2 from "../images/poussin1.jpeg";
 import product3 from "../images/heroBg1.jpeg";
+import { Link } from "gatsby";
 const products = [
   {
     content: "Œufs de table gros calibre et conservables longtemps",
@@ -44,13 +45,13 @@ export default function Products() {
         ))}
       </div>
       <div className="w-full mt-12 lg:mt-24 flex justify-center ">
-      <a
-        href="#"
+      <Link
+        to="/services"
         className="btn btn-md btn-primary btn-gradient intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier"
       >
         Voir Plus
         <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
-      </a>
+      </Link>
       </div>
       
     </div>

@@ -43,7 +43,7 @@ export default function SwiperComponent() {
                 CHERIFIEN <span className="text-primary">AGROBUSINESS</span>
               </span>
             </h1>
-            <p className=" max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+            <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
               Aviculture, Pisciculture, Embouche bovine-ovine
             </p>
 
@@ -63,7 +63,7 @@ export default function SwiperComponent() {
                 CHERIFIEN <span className="text-primary">AGROBUSINESS</span>
               </span>
             </h1>
-            <p className=" max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+            <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
               Aviculture, Pisciculture, Embouche bovine-ovine
             </p>
 
@@ -83,7 +83,7 @@ export default function SwiperComponent() {
                 CHERIFIEN <span className="text-primary">AGROBUSINESS</span>
               </span>
             </h1>
-            <p className=" max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+            <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
               Aviculture, Pisciculture, Embouche bovine-ovine
             </p>
 

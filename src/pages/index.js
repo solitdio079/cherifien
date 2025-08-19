@@ -6,6 +6,7 @@ import Values from "../components/Values"
 import Products from "../components/Products"
 import Stats from "../components/Stats"
 import Formation from "../components/Formation"
+import Seo from "../components/Seo"
 export default function IndexPage() {
   return (
     <Layout>
@@ -34,4 +35,4 @@ export default function IndexPage() {
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title={"Accueil"}/>;
