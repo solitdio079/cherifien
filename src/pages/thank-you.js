@@ -1,6 +1,8 @@
 // src/pages/thank-you.js
 import React from "react"
 import { Link } from "gatsby"
+import Seo from "../components/Seo";
+
 
 export default function ThankYouPage() {
   return (
