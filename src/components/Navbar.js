@@ -23,7 +23,7 @@ export default function Navbar(){
         <li><NavLink to={"/"}>Accueil</NavLink></li>
         <li><NavLink to={"/about"}>Qui sommes nous?</NavLink></li>
         <li><NavLink to={"/services"}>Nos Produits & Services</NavLink></li>
-        <li><NavLink to={"#"}>Infos & liens utiles</NavLink></li>
+       
         <li><NavLink to={"/contact"}>Contact</NavLink></li>
         
       </ul>
