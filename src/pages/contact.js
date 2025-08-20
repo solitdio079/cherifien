@@ -97,6 +97,7 @@ const Contact = () => {
                   data-netlify="true"
                   netlify-honeypot="bot-field"
                   className="p-5 shadow-md grid gap-6 sm:max-w-full grid-cols-1 bg-base-200 rounded-lg"
+                  netlify
                 >
                   <div className="flex justify-center items-center flex-col gap-5 mx-auto mb-12 w-fit sm:mb-8 lg:mb-12">
                     <h2 className="text-base-content text-lg font-bold md:text-xl lg:text-2xl">
