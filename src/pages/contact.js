@@ -175,7 +175,7 @@ const Contact = () => {
                   <input type="hidden" name="redirect" value="/thank-you" />
 
                   <button
-                    type="button"
+                    type="submit"
                     className="btn btn-primary btn-next"
                     data-stepper-next-btn=""
                   >
