@@ -21,8 +21,9 @@ export default function Navbar(){
     <div id="navbar-collapse" className="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full" >
       <ul className="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
         <li><NavLink to={"/"}>Accueil</NavLink></li>
-        <li><NavLink to={"/about"}>A Propos</NavLink></li>
-        <li><NavLink to={"/services"}>Nos Services</NavLink></li>
+        <li><NavLink to={"/about"}>Qui sommes nous?</NavLink></li>
+        <li><NavLink to={"/services"}>Nos Produits & Services</NavLink></li>
+        <li><NavLink to={"#"}>Infos & liens utiles</NavLink></li>
         <li><NavLink to={"/contact"}>Contact</NavLink></li>
         
       </ul>

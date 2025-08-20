@@ -13,21 +13,21 @@ const Contact = () => {
         <div className="bg-base-200 py-8">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
             <div className="flex justify-center items-center flex-col gap-5 mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
-              <span className="uppercase text-primary">
+              <span className="uppercase text-primary  intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier">
                 {" "}
                 Cherifien Agrobusiness
               </span>
-              <h2 className="text-primary text-3xl font-bold md:text-4xl lg:text-5xl">
+              <h2 className="text-primary text-3xl font-bold md:text-4xl lg:text-5xl  intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
                 Contactez-nous
               </h2>
-              <p className="text-base-content text-md md:text-lg lg:text-xl">
+              <p className="text-base-content text-md md:text-lg lg:text-xl  intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
                 Notre équipe est prête à vous aider — contactez-nous pour en
                 savoir plus sur nos services et solutions.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:px-6 lg:px-8 my-12 mx-auto">
-              <div className="card card-border shadow-none ">
+              <div className="card card-border shadow-none  intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier">
                 <div className="p-5 gap-5 flex flex-row">
                   <Link
                     to={"#"}
@@ -42,7 +42,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="card card-border shadow-none">
+              <div className="card card-border shadow-none  intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
                 <div className="p-5 gap-5 flex flex-row">
                   <Link
                     to={"#"}
@@ -57,7 +57,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="card card-border shadow-none">
+              <div className="card card-border shadow-none  intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
                 <div className="p-5 gap-5 flex flex-row">
                   <Link
                     to={"#"}
@@ -76,7 +76,7 @@ const Contact = () => {
 
             <div className="grid md:grid-cols-3">
               <div
-                className=" md:block md:col-span-2"
+                className=" md:block md:col-span-2  intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier"
                 style={{ width: "100%" }}
               >
                 <iframe
@@ -90,7 +90,7 @@ const Contact = () => {
                 </iframe>
               </div>
 
-              <div className="md:-ml-24 self-center">
+              <div className="md:-ml-24 self-center  intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
                 <form
                   name="contact"
                   method="POST"
@@ -172,7 +172,7 @@ const Contact = () => {
                     <span className="icon-[tabler--message] text-base-content/80 mt-2 mx-4 size-5 shrink-0"></span>
                   </div>
                   <input type="hidden" name="form-name" value="contact" />
-                  <input type="hidden" name="redirect" value="/thank-you" />
+                  <input type="hidden" name="redirect" value="https://cherifien.com/thank-you" />
 
                   <button
                     type="submit"

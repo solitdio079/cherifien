@@ -39,8 +39,8 @@ export default function SwiperComponent() {
          <SwiperSlide>
           <HeroSlider heroBg={heroBg4}>
             <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-4xl md:max-w-3xl md:text-balance">
-              <span className="text-secondary">
-                CHERIFIEN <span className="text-primary">AGROBUSINESS</span>
+              <span className="text-primary bg-secondary">
+                CHERIFIEN <span className="text-primary bg-secondary">AGROBUSINESS</span>
               </span>
             </h1>
             <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
@@ -59,8 +59,8 @@ export default function SwiperComponent() {
         <SwiperSlide>
           <HeroSlider heroBg={heroBg1}>
             <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-4xl md:max-w-3xl md:text-balance">
-              <span className="text-secondary">
-                CHERIFIEN <span className="text-primary">AGROBUSINESS</span>
+              <span className="text-primary bg-secondary">
+                CHERIFIEN <span className="text-primary bg-secondary">AGROBUSINESS</span>
               </span>
             </h1>
             <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
@@ -79,8 +79,8 @@ export default function SwiperComponent() {
         <SwiperSlide>
           <HeroSlider heroBg={heroBg2}>
             <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-4xl md:max-w-3xl md:text-balance">
-              <span className="text-secondary">
-                CHERIFIEN <span className="text-primary">AGROBUSINESS</span>
+              <span className="text-primary bg-secondary">
+                CHERIFIEN <span className="text-primary bg-secondary">AGROBUSINESS</span>
               </span>
             </h1>
             <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
