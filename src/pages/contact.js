@@ -171,6 +171,8 @@ const Contact = () => {
                     </div>
                     <span className="icon-[tabler--message] text-base-content/80 mt-2 mx-4 size-5 shrink-0"></span>
                   </div>
+                  <input type="hidden" name="form-name" value="contact" />
+                  <input type="hidden" name="redirect" value="/thank-you" />
 
                   <button
                     type="button"
