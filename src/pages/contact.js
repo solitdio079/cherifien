@@ -123,6 +123,7 @@ const Contact = () => {
                         className="grow"
                         placeholder="Djoko Keita"
                         id="fullName"
+                        name="fullName"
                       />
                       <label
                         className="input-floating-label ms-0"
@@ -141,6 +142,7 @@ const Contact = () => {
                         className="grow"
                         placeholder="abc@gmail.com"
                         id="email"
+                        name="email"
                       />
                       <label
                         className="input-floating-label ms-0"
@@ -157,6 +159,7 @@ const Contact = () => {
                         className="resize-none"
                         placeholder="Hello!!!"
                         id="textareaFloatingMedium"
+                        name="message"
                       ></textarea>
                       <label
                         className="textarea-floating-label"
