@@ -13,7 +13,7 @@ export default function About() {
     <Layout>
       <HeroSlider heroBg={heroBg3}>
         <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-4xl md:max-w-3xl md:text-balance">
-          <span className="text-primary bg-secondary">
+          <span className="text-primary bg-base-100">
             Qui sommes nous?
           </span>
         </h1>

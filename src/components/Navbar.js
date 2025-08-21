@@ -1,6 +1,7 @@
 import * as React from "react" 
 import logo from "../images/logo.png"
 import NavLink from "./Navlink"
+import { Link } from "gatsby"
 export default function Navbar(){
     return (<>
     <nav className="navbar lg:sticky lg:top-0 z-50 rounded-box shadow-base-300/20 shadow-sm">
@@ -23,6 +24,8 @@ export default function Navbar(){
         <li><NavLink to={"/"}>Accueil</NavLink></li>
         <li><NavLink to={"/about"}>Qui sommes nous?</NavLink></li>
         <li><NavLink to={"/services"}>Nos Produits & Services</NavLink></li>
+        <li><Link to={"#"}>Infos & liens utiles</Link></li>
+        <li><Link to={"#"}>Médiatèque</Link></li>
        
         <li><NavLink to={"/contact"}>Contact</NavLink></li>
         

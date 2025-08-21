@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
             <p>
              
               <a className="link link-hover font-medium text-primary" href="#">
-              Nous ne vendons que du 100% organique
+              Nous pratiquons de l'Agriculture Durable & Eco-responsable
               </a>
             </p>
           </aside>
