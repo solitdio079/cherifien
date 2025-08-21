@@ -67,15 +67,9 @@ export default function Team() {
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
-                <img
-                  alt=""
-                  src={person.imageUrl}
-                  className="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10"
-                />
+               
                 <div>
-                  <h3 className="text-white font-semibold tracking-tight text-white">
-                    {person.name}
-                  </h3>
+                 
                   <p className="text-sm/6 font-semibold text-primary">
                     {person.role}
                   </p>

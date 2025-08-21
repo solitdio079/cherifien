@@ -20,18 +20,13 @@ const Layout = ({ children }) => {
           </aside>
           <div className="flex gap-4 h-5 items-center text-primary">
             <p className="font-bold">Suivez-Nous</p>
-            <a href="#" className="link text-primary" aria-label="Github Link">
-              <span className="icon-[tabler--brand-github] size-5"></span>
+            <a href="https://www.tiktok.com/@cherifien_agrobusiness?_t=ZN-8z43GhkKJ5q&_r=1" target="_blank" className="link text-primary" aria-label="Github Link">
+              <span className="icon-[tabler--brand-tiktok] size-5"></span>
             </a>
-            <a href="#" className="link text-primary" aria-label="Facebook Link">
+            <a href="https://www.facebook.com/share/15AmL7oCbys/?mibextid=LQQJ4d" target="_blank" className="link text-primary" aria-label="Facebook Link">
               <span className="icon-[tabler--brand-facebook] size-5"></span>
             </a>
-            <a href="#" className="link text-primary" aria-label="X Link">
-              <span className="icon-[tabler--brand-x] size-5"></span>
-            </a>
-            <a href="#" className="link text-primary" aria-label="Google Link">
-              <span className="icon-[tabler--brand-google] size-5"></span>
-            </a>
+          
           </div>
           <div className="flex gap-4 h-5 items-center text-primary">
           <span className="icon-[tabler--phone] size-4"></span>
