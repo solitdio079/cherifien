@@ -16,7 +16,7 @@ export default function Services() {
           </span>
         </h1>
         <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-          Aviculture, Pisciculture, Embouche bovine-ovine
+        Aviculture-Pisciculture-Elevage-Fruits & légumes
         </p>
       
        

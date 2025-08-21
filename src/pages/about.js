@@ -18,7 +18,7 @@ export default function About() {
           </span>
         </h1>
         <p className="bg-base-200 p-1 text-lg max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-          Aviculture, Pisciculture, Embouche bovine-ovine
+        Aviculture-Pisciculture-Elevage-Fruits & légumes
         </p>
       </HeroSlider>
       <div className="bg-base-200 flex py-8 sm:py-16 lg:py-12">
