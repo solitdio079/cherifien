@@ -3,7 +3,7 @@ import ceoImg from "../images/team3.jpeg"
 import placeholderImg from "../images/user.png"
 const people = [
   {
-    name: "Ahmet Cherif Fofana",
+    name: "Ahmed Cherif Fofana",
     role: "Promoteur - Gérant",
     imageUrl:ceoImg,
     id:1
