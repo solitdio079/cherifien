@@ -7,9 +7,13 @@ import partner5 from "../images/heroBg4.jpg"
 import partner6 from "../images/oeuf1.jpeg"
 import partner7 from "../images/poussin1.jpeg"
 import partner8 from "../images/welcome.png"
+import partner9 from "../images/team1.jpeg"
+import partner10 from "../images/team2.jpeg"
+import partner11 from "../images/team3.jpeg"
+import partner12 from "../images/team4.jpeg"
 
 const services = [
-  partner1,partner2, partner3, partner4,partner5,partner6,partner7,partner8
+  partner12,partner11,partner1,partner2, partner3, partner4,partner5,partner6,partner7,partner8,partner9,partner10
 ]
 
 

@@ -1,11 +1,12 @@
 import React from "react";
-
+import ceoImg from "../images/team3.jpeg"
+import placeholderImg from "../images/user.png"
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Promoteur-Gérant ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Ahmet Cherif Fofana",
+    role: "PDG",
+    imageUrl:ceoImg,
+    id:1
   },
   {
     name: "Michael Foster",
@@ -66,15 +67,31 @@ export default function Team() {
         >
           {people.map((person) => (
             <li key={person.name}>
+              {person.id ===1 ?
               <div className="flex items-center gap-x-6">
-               
+                <img
+                  alt=""
+                  src={person.imageUrl}
+                  className="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10"
+                />
                 <div>
-                 
-                  <p className="text-sm/6 font-semibold text-primary">
-                    {person.role}
-                  </p>
+                  <h3 className="text-base/7 font-semibold tracking-tight text-white">{person.name}</h3>
+                  <p className="text-sm/6 font-semibold text-indigo-400">{person.role}</p>
                 </div>
               </div>
+               :
+               <div className="flex items-center gap-x-6">
+                  <img
+                  alt=""
+                  src={placeholderImg}
+                  className="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10"
+                />
+               <div>
+                 
+                 <p className="text-sm/6 font-semibold text-indigo-400">{person.role}</p>
+               </div>
+             </div>
+                }
             </li>
           ))}
         </ul>

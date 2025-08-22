@@ -79,10 +79,11 @@ const Contact = () => {
                 className=" md:block md:col-span-2  intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier"
                 style={{ width: "100%" }}
               >
+               
                 <iframe
                   width="100%"
                   className="h-80 md:h-[650px] rounded-lg"
-                  src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3897.0230390702623!2d-7.8334082248755275!3d12.381388887882432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIyJzUzLjAiTiA3wrA0OSc1MS4wIlc!5e0!3m2!1sen!2str!4v1755827589386!5m2!1sen!2str"
                 >
                   <a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">
                     Carte démographique
